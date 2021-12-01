@@ -1,0 +1,44 @@
+.container{
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    background: gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(6, 1fr);
+    grid-gap: 10px;
+    border-radius: 15px;
+}
+.top{
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    text-align: end;
+    background: #000;
+    color: #fff;
+}
+.plus{
+    color: blue;
+}
+.min{
+    color: blue;
+}
+.mn{
+    color: blue;
+}
+.dl{
+    color: blue;
+}
+.roun{
+    grid-column: 4/-1;
+    grid-row: 4/8;
+    background: rgb(69, 69, 225);
+}
+.ac{
+    background: rgb(235, 58, 58);
+}
+p{
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
